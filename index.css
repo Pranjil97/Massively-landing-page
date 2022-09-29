@@ -1,0 +1,70 @@
+body{
+    flex-direction: column;
+    background-image: url(assets/images/bg.jpg);
+    background-size: cover;  
+    background-color: #212931 ;
+    font-size: Merriweather, Georgia, serif;
+}
+.centertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 700px;
+    height: 100vh
+
+}
+h1{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    color: #ffffff;
+    width: 290px;
+    margin: 0;
+}
+h2{
+    margin: 0;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    color: #ffffff;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: auto;
+    /* background-color: burlywood; */
+    width: 1000px;
+    height: 1400px;
+}
+section div{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+}
+.col1{
+    border: #ffffff 10px solid;
+    /* background-color: red; */
+}
+.col2{
+    border: #ffffff 10px solid;
+    /* background-color: rgb(111, 0, 255); */
+}
+.col3{
+    border: #ffffff 10px solid;
+    /* background-color: rgb(75, 196, 136); */
+}
+.col4{
+    border: #ffffff 10px solid;
+    /* background-color: rgb(75, 196, 136); */
+}
+.col5{
+    border: #ffffff 10px solid;
+    /* background-color: rgb(75, 196, 136); */
+}
+.col6{
+    border: #ffffff 10px solid;
+    /* background-color: rgb(75, 196, 136);
+} */
